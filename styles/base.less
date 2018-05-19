@@ -55,14 +55,14 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: @light-gray;
+  color: @nougat;
 }
 
 .syntax--keyword {
   color: @purple;
 
   &.syntax--control {
-    color: @purple;
+    color: @caramel;
   }
 
   &.syntax--operator {
@@ -90,7 +90,7 @@ atom-text-editor {
   }
 
   &.syntax--numeric {
-    color: @orange;
+    color: @caramel;
   }
 
   &.syntax--other.syntax--color {
@@ -98,12 +98,12 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--symbol {
-    color: @green;
+    color: @mustard;
   }
 }
 
 .syntax--variable {
-  color: @red;
+  color: @caramel;
 
   &.syntax--interpolation {
     color: darken(@red, 10%);
@@ -120,7 +120,7 @@ atom-text-editor {
 }
 
 .syntax--string {
-  color: @green;
+  color: @caramel;
 
 
   &.syntax--regexp {
@@ -139,7 +139,7 @@ atom-text-editor {
 .syntax--punctuation {
   &.syntax--definition {
     &.syntax--comment {
-      color: @light-gray;
+      color: @nougat;
     }
 
     &.syntax--string,
@@ -166,7 +166,8 @@ atom-text-editor {
   }
 
   &.syntax--section.syntax--embedded {
-    color: darken(@red, 10%);
+    color: darken(@orange, 10%);
+    font-weight: bold;
   }
 
 }
@@ -187,18 +188,20 @@ atom-text-editor {
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @blue;
+    color: @nougat;
+    font-weight: bold;
   }
   &.syntax--name.syntax--type {
-    color: @light-orange;
-    text-decoration: underline;
+    color: @orange;
+    font-weight: bold;
   }
 
   &.syntax--other.syntax--inherited-class {
-    color: @green;
+    color: @orange;
+    text-decoration: underline dotted ;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @light-orange;
+    color: @orange;
   }
 
   &.syntax--name.syntax--section {
@@ -206,12 +209,12 @@ atom-text-editor {
   }
 
   &.syntax--name.syntax--tag {
-    color: @red;
-    text-decoration: underline;
+    color: @caramel;
+    text-decoration: none;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @orange;
+    color: @light-orange;
 
     &.syntax--id {
       color: @blue;
@@ -270,7 +273,7 @@ atom-text-editor {
   }
 
   &.syntax--inserted {
-    color: @green;
+    color: @mustard;
   }
 
   &.syntax--list {
@@ -282,14 +285,14 @@ atom-text-editor {
   }
 
   &.syntax--raw.syntax--inline {
-    color: @green;
+    color: @mustard;
   }
 }
 
 .syntax--source.syntax--gfm .syntax--markup {
   -webkit-font-smoothing: auto;
   &.syntax--heading {
-    color: @green;
+    color: @mustard;
   }
 }
 
