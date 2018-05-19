@@ -1,7 +1,7 @@
 {
   "name": "brownie-syntax",
   "theme": "syntax",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "A brown based syntax theme for the Atom text editor",
   "author": "Guillermo Haas-Thompson",
   "keywords": [
