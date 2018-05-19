@@ -1,1 +1,1 @@
-# brownie-syntax
+# A brownish theme for the Atom text editor
