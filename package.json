@@ -1,7 +1,7 @@
 {
   "name": "brownie-syntax",
   "description": "A brown based syntax theme for the Atom text editor",
-  "repository": "https://github.com/memoht/brownie-syntax",
+  "repository": "https://github.com/memoht/brownie-syntax.git",
   "version": "0.2.8",
   "theme": "syntax",
   "author": "Guillermo Haas-Thompson",
