@@ -3,9 +3,13 @@
   "theme": "syntax",
   "version": "0.0.0",
   "description": "A brown based syntax theme for the Atom text editor",
+  "author": "Guillermo Haas-Thompson",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "dark theme",
+    "brown",
+    "brownie-syntax"
   ],
   "repository": "https://github.com/memoht/brownie-syntax",
   "license": "MIT",
